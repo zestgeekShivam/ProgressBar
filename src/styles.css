@@ -1,0 +1,24 @@
+.progress-bar {
+  width: 250px;
+  height: 23px;
+  border-radius: 10px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-text {
+  position: absolute;
+  left: 50%;
+  top: 3px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.track {
+}
